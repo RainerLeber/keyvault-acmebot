@@ -6,6 +6,11 @@ using Azure.WebJobs.Extensions.HttpApi;
 
 using DurableTask.TypedProxy;
 
+<<<<<<< HEAD:KeyVault.Acmebot/GetCertificatesFunctions.cs
+using KeyVault.Acmebot.Contracts;
+using KeyVault.Acmebot.Internal;
+=======
+>>>>>>> master:KeyVault.Acmebot/Functions/GetCertificates.cs
 using KeyVault.Acmebot.Models;
 
 using Microsoft.AspNetCore.Http;
@@ -38,7 +43,7 @@ namespace KeyVault.Acmebot.Functions
             [DurableClient] IDurableClient starter,
             ILogger log)
         {
-            if (!User.Identity.IsAuthenticated)
+            if (!User.IsAppAuthorized())
             {
                 return Unauthorized();
             }
