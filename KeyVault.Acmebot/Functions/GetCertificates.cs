@@ -5,7 +5,8 @@ using System.Threading.Tasks;
 using Azure.WebJobs.Extensions.HttpApi;
 
 using DurableTask.TypedProxy;
-
+using KeyVault.Acmebot.Contracts;
+using KeyVault.Acmebot.Internal;
 using KeyVault.Acmebot.Models;
 
 using Microsoft.AspNetCore.Http;
