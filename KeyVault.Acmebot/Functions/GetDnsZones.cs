@@ -6,12 +6,6 @@ using Azure.WebJobs.Extensions.HttpApi;
 
 using DurableTask.TypedProxy;
 
-<<<<<<< HEAD:KeyVault.Acmebot/GetDnsZonesFunctions.cs
-using KeyVault.Acmebot.Contracts;
-using KeyVault.Acmebot.Internal;
-
-=======
->>>>>>> master:KeyVault.Acmebot/Functions/GetDnsZones.cs
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Azure.WebJobs;

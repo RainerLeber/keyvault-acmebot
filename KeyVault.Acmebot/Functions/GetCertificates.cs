@@ -6,11 +6,6 @@ using Azure.WebJobs.Extensions.HttpApi;
 
 using DurableTask.TypedProxy;
 
-<<<<<<< HEAD:KeyVault.Acmebot/GetCertificatesFunctions.cs
-using KeyVault.Acmebot.Contracts;
-using KeyVault.Acmebot.Internal;
-=======
->>>>>>> master:KeyVault.Acmebot/Functions/GetCertificates.cs
 using KeyVault.Acmebot.Models;
 
 using Microsoft.AspNetCore.Http;
